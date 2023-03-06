@@ -8,7 +8,7 @@ function move_consonants($str) {
             $consonants .= $matches[0];
             $word = substr($word, strlen($matches[0]));
         }
-        $result .= $word . $consonants . ' ';
+        $result .= $word . $consonants . 'ay' . ' ';
     }
     return rtrim($result); 
 }
